@@ -1,7 +1,7 @@
 # python-pdfkit-example
 python-pdfkit HTML TO PDF Example
 
-python-pdfkit  使用 python-pdfkit 將 HTML 轉成 PDF
+使用 python-pdfkit 將 HTML 轉成 PDF
  
 * [Youtube Demo](https://youtu.be/ceIJRWriTig)  
  
