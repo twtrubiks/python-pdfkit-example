@@ -3,7 +3,7 @@ python-pdfkit HTML TO PDF Example
 
 python-pdfkit  使用 python-pdfkit 將 HTML 轉成 PDF
  
-* [Youtube Demo]()  
+* [Youtube Demo](https://youtu.be/ceIJRWriTig)  
  
 常常需要將一些東西轉換成 PDF，今天教你使用 [python-pdfkit](https://github.com/JazzCore/python-pdfkit) 快速完成這個功能。
 
@@ -157,6 +157,8 @@ IOError: 'No wkhtmltopdf executable found'
 
 
 ## 執行畫面 (簡單範例)
+
+執行程式，請用 <b>系統管理員</b> 執行 (不然有時候會無法存取)
 
 請將記得安裝套件
 ``` 
