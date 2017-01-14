@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Example</title>
+    <link type="text/css" rel="stylesheet" href="static/stylesheets/bootstrap.min.css">
+    <script src="static/js/jquery.min.js"></script>
+    <script src="static/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="jumbotron">
+            <h1>python-pdfkit</h1>
+            <p>Example Use Flask</p>
+        </div>
+        <form action="/api/wkhtmltopdf_url" method="POST">
+            <div class="form-group">
+                <label for="InputURL">URL</label>
+                <input type="text" class="form-control"  name="URL" id="URL" placeholder="URL">
+            </div>
+            <button type="submit" class="btn btn-default">將網頁下載為PDF</button>
+        </form>
+        <br>
+        <form action="/api/wkhtmltopdf_template" method="POST">
+            <button type="submit" class="btn btn-default">自訂 template 下載 (範例)</button>
+        </form>
+    </div>
+</body>
+</html>
